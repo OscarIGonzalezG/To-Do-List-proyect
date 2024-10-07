@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    
+
+</head>
+<body>
+    <div class="container">
+        <h1>To do List</h1>
+        <div class="input-container">
+            <input class="todo-input" placeholder="Agregar nueva tarea...">
+            <button class="add-button"> 
+                <i class="fa fa-plus-circle"></i>
+            </button>
+        </div>
+
+        <div class="filters">
+            <div class="filter" data-filter="completed">Completo</div>
+            <div class="filter" data-filter="pending">Incompleto</div>
+            <div class="delete-all">Borrar Todo</div>
+          </div>
+
+        <div class="todos-container">
+            <ul class="todos"></ul>
+            <image class="empty-image" src="image/empty.svg"></image>
+        </div>
+    </div>
+    
+
+    <footer class="footer">
+        <div class="text-footer">
+            <p>Copyright &copy; 2024 by Oscar González | Todos Los Derechos Reservados.</p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
